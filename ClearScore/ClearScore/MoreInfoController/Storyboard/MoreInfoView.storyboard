@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--MoreInfoView-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController restorationIdentifier="MoreInfoView" storyboardIdentifier="MoreInfoView" title="MoreInfoView" id="Y6W-OH-hqX" customClass="MoreInfoViewController" customModule="ClearScore" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" largeTitles="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G1R-xa-ZNN">
+                                <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <offsetWrapper key="textShadowOffset" horizontal="10" vertical="0.0"/>
+                                </textAttributes>
+                                <textAttributes key="largeTitleTextAttributes">
+                                    <offsetWrapper key="textShadowOffset" horizontal="10" vertical="0.0"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="More Info" largeTitleDisplayMode="always" id="nAU-xe-eAe">
+                                        <barButtonItem key="rightBarButtonItem" title="Item" image="multiply" catalog="system" id="ziQ-Gm-Yat">
+                                            <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <connections>
+                                                <action selector="closeButtonClick:" destination="Y6W-OH-hqX" id="mQO-UE-jrP"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                                <navigationBarAppearance key="scrollEdgeAppearance">
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="shadowColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <textAttributes key="titleTextAttributes"/>
+                                    <textAttributes key="largeTitleTextAttributes">
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </textAttributes>
+                                </navigationBarAppearance>
+                            </navigationBar>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Long Term Debt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0D-ID-Rbk">
+                                <rect key="frame" x="12" y="170" width="390" height="22"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your long term debt total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x8a-aJ-tLJ">
+                                <rect key="frame" x="20" y="200" width="374" height="19"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qGM-D3-1qS">
+                                <rect key="frame" x="20" y="252" width="374" height="19"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Total credit limit: ">
+                                        <attributes>
+                                            <color key="NSColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Light"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="R 300,000">
+                                        <attributes>
+                                            <color key="NSColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Medium"/>
+                                            <font key="NSOriginalFont" size="16" name="HelveticaNeue-Medium"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R 100, 000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2NM-On-6l3">
+                                <rect key="frame" x="20" y="221" width="374" height="29"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                <color key="textColor" name="Purple"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DdA-9j-jE0">
+                                <rect key="frame" x="20" y="279" width="374" height="19"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Down ">
+                                        <attributes>
+                                            <color key="NSColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="R 30,000">
+                                        <attributes>
+                                            <color key="NSColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Medium"/>
+                                            <font key="NSOriginalFont" size="16" name="HelveticaNeue-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="since last month">
+                                        <attributes>
+                                            <color key="NSColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Short Term Debt" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dx1-3p-wWJ">
+                                <rect key="frame" x="12" y="328" width="390" height="22"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="18"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your short term debt total" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rub-qd-uN8">
+                                <rect key="frame" x="20" y="358" width="374" height="19"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="679-ea-VGZ">
+                                <rect key="frame" x="20" y="410" width="374" height="19"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Total credit limit: ">
+                                        <attributes>
+                                            <color key="NSColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Light"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="R 300,000">
+                                        <attributes>
+                                            <color key="NSColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Medium"/>
+                                            <font key="NSOriginalFont" size="16" name="HelveticaNeue-Medium"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wht-WL-wJc">
+                                <rect key="frame" x="20" y="437" width="374" height="19"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Up ">
+                                        <attributes>
+                                            <color key="NSColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="R 30,000">
+                                        <attributes>
+                                            <color key="NSColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Medium"/>
+                                            <font key="NSOriginalFont" size="16" name="HelveticaNeue-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="since last month">
+                                        <attributes>
+                                            <color key="NSColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="16" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R 100, 000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Omb-WK-veZ">
+                                <rect key="frame" x="20" y="379" width="374" height="29"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                <color key="textColor" name="Purple"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="0.0"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FoD-J4-e5T">
+                                <rect key="frame" x="12" y="820" width="390" height="22"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Next report in">
+                                        <attributes>
+                                            <color key="NSColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="18" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" 30 days">
+                                        <attributes>
+                                            <color key="NSColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="18" name="HelveticaNeue-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" red="0.95294117647058818" green="0.96078431372549022" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="rub-qd-uN8" secondAttribute="trailing" constant="20" id="1RP-ys-5lm"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="FoD-J4-e5T" secondAttribute="bottom" constant="20" id="7b3-sz-8wy"/>
+                            <constraint firstItem="G1R-xa-ZNN" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="9Pv-Ra-38e"/>
+                            <constraint firstItem="qGM-D3-1qS" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Dob-fX-MMX"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="679-ea-VGZ" secondAttribute="trailing" constant="20" id="HVp-TV-OGI"/>
+                            <constraint firstItem="G1R-xa-ZNN" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Huq-v4-ho5"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="f0D-ID-Rbk" secondAttribute="trailing" constant="12" id="IBt-K4-9oY"/>
+                            <constraint firstItem="f0D-ID-Rbk" firstAttribute="top" secondItem="G1R-xa-ZNN" secondAttribute="bottom" constant="30" id="INU-4b-rAa"/>
+                            <constraint firstItem="679-ea-VGZ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="L7e-CY-ido"/>
+                            <constraint firstItem="x8a-aJ-tLJ" firstAttribute="top" secondItem="f0D-ID-Rbk" secondAttribute="bottom" constant="8" symbolic="YES" id="LDz-ko-TVh"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="FoD-J4-e5T" secondAttribute="trailing" constant="12" id="Oc5-aS-jlX"/>
+                            <constraint firstItem="f0D-ID-Rbk" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="12" id="PMP-ka-qPW"/>
+                            <constraint firstItem="DdA-9j-jE0" firstAttribute="top" secondItem="qGM-D3-1qS" secondAttribute="bottom" constant="8" symbolic="YES" id="QZz-yC-v4x"/>
+                            <constraint firstItem="DdA-9j-jE0" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Tze-zv-80i"/>
+                            <constraint firstItem="2NM-On-6l3" firstAttribute="top" secondItem="x8a-aJ-tLJ" secondAttribute="bottom" constant="2" id="UyC-LO-rSo"/>
+                            <constraint firstItem="Omb-WK-veZ" firstAttribute="top" secondItem="rub-qd-uN8" secondAttribute="bottom" constant="2" id="VCG-vg-KoP"/>
+                            <constraint firstItem="Dx1-3p-wWJ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="12" id="WZd-SG-7x6"/>
+                            <constraint firstItem="rub-qd-uN8" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Z5B-47-Ks5"/>
+                            <constraint firstItem="Dx1-3p-wWJ" firstAttribute="top" secondItem="DdA-9j-jE0" secondAttribute="bottom" constant="30" id="b5Q-eJ-u9X"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="DdA-9j-jE0" secondAttribute="trailing" constant="20" id="bLC-r0-3Fa"/>
+                            <constraint firstItem="679-ea-VGZ" firstAttribute="top" secondItem="Omb-WK-veZ" secondAttribute="bottom" constant="2" id="dSm-ju-vPv"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="2NM-On-6l3" secondAttribute="trailing" constant="20" id="drY-LK-VT6"/>
+                            <constraint firstItem="x8a-aJ-tLJ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="eD8-Zu-IKi"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="qGM-D3-1qS" secondAttribute="trailing" constant="20" id="ffW-F0-g8w"/>
+                            <constraint firstItem="G1R-xa-ZNN" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="hiN-Ir-k5z"/>
+                            <constraint firstItem="rub-qd-uN8" firstAttribute="top" secondItem="Dx1-3p-wWJ" secondAttribute="bottom" constant="8" symbolic="YES" id="jhI-ey-JHm"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Dx1-3p-wWJ" secondAttribute="trailing" constant="12" id="lpg-dv-ror"/>
+                            <constraint firstItem="Wht-WL-wJc" firstAttribute="top" secondItem="679-ea-VGZ" secondAttribute="bottom" constant="8" symbolic="YES" id="m0W-OO-qbg"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Omb-WK-veZ" secondAttribute="trailing" constant="20" id="mwk-Bi-g2o"/>
+                            <constraint firstItem="FoD-J4-e5T" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="12" id="oSM-eG-3e7"/>
+                            <constraint firstItem="qGM-D3-1qS" firstAttribute="top" secondItem="2NM-On-6l3" secondAttribute="bottom" constant="2" id="rKr-M5-eae"/>
+                            <constraint firstItem="Omb-WK-veZ" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="rXc-GD-3DR"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Wht-WL-wJc" secondAttribute="trailing" constant="20" id="u6D-zo-r8i"/>
+                            <constraint firstItem="2NM-On-6l3" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="uGk-9Z-GoL"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="x8a-aJ-tLJ" secondAttribute="trailing" constant="20" id="y5P-BG-hPh"/>
+                            <constraint firstItem="Wht-WL-wJc" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="yvB-NR-OXg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="daysUntilReportLabel" destination="FoD-J4-e5T" id="njB-eZ-VtR"/>
+                        <outlet property="longTermDebtChangeLabel" destination="DdA-9j-jE0" id="vLZ-bZ-LXO"/>
+                        <outlet property="longTermDebtTotalLabel" destination="2NM-On-6l3" id="G9k-TU-DsP"/>
+                        <outlet property="shortTermDebtChangeLabel" destination="Wht-WL-wJc" id="SMZ-Yx-RJT"/>
+                        <outlet property="shortTermDebtLimitLabel" destination="679-ea-VGZ" id="ctN-h9-u0z"/>
+                        <outlet property="shortTermDebtTotalLabel" destination="Omb-WK-veZ" id="ejT-Np-7vT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="89.732142857142847"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="multiply" catalog="system" width="128" height="111"/>
+        <namedColor name="Purple">
+            <color red="0.64300000667572021" green="0.67100000381469727" blue="0.93699997663497925" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "ZF7VnhBjQOu6Cb2YvG1q_logo_with_trademark__white_.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "ZF7VnhBjQOu6Cb2YvG1q_logo_with_trademark__white_@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "ZF7VnhBjQOu6Cb2YvG1q_logo_with_trademark__white_@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
