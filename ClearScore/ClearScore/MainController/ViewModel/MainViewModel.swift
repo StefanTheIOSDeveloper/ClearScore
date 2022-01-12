@@ -63,7 +63,7 @@ class MainViewModel: NSObject {
         delegate.creditScoreView.addGestureRecognizer(UITapGestureRecognizer(target: delegate.self, action: #selector(delegate.creditScoreViewTap)))
         
         //add animation to progress layer
-        addProgressAnimation(progressValue: calculateUserCreditScorePersentage())
+        addProgressAnimation(progressValue: calculateUserCreditScorePersentage(score: Double(GlobalData.shareData.userCreditScoreData?.creditReportInfo?.score ?? 0), maxScore: Double(GlobalData.shareData.userCreditScoreData?.creditReportInfo?.maxScoreValue ?? 0)))
     }
     
     //MARK: add Progress Animation
@@ -78,8 +78,8 @@ class MainViewModel: NSObject {
     
     
     //MARK: Calculate User Credit Score Persentage
-    func calculateUserCreditScorePersentage() -> Double{
-        let circleProgressbarPosition = Double(GlobalData.shareData.userCreditScoreData?.creditReportInfo?.score ?? 0)/Double(GlobalData.shareData.userCreditScoreData?.creditReportInfo?.maxScoreValue ?? 0)
+    func calculateUserCreditScorePersentage(score : Double, maxScore : Double) -> Double{
+        let circleProgressbarPosition = score/maxScore
         
         return circleProgressbarPosition
     }

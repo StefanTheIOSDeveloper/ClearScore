@@ -35,6 +35,10 @@
 		AA014E5A2773A8400079F532 /* UserCreditScoreDataAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA014E592773A8400079F532 /* UserCreditScoreDataAPI.swift */; };
 		AA014E5D2773A8B50079F532 /* UserCreditScoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA014E5C2773A8B50079F532 /* UserCreditScoreData.swift */; };
 		AA014E5F2773B22A0079F532 /* StartScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA014E5E2773B22A0079F532 /* StartScreenViewModel.swift */; };
+		AA4D7AD0278F577300C8A85B /* ServiceHelperTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4D7ACF278F577300C8A85B /* ServiceHelperTest.swift */; };
+		AA87B2B7278E1140009C190E /* UserCreditScoreDataTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA87B2B6278E113F009C190E /* UserCreditScoreDataTest.swift */; };
+		AA87B2BB278E95C4009C190E /* MainViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA87B2BA278E95C4009C190E /* MainViewModelTest.swift */; };
+		AA87B2BD278E9CDA009C190E /* PopupViewTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA87B2BC278E9CDA009C190E /* PopupViewTest.swift */; };
 		AACF84CE27745E76004BE708 /* MoreInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF84CD27745E76004BE708 /* MoreInfoViewModel.swift */; };
 		AACF84D127746150004BE708 /* IntegerExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AACF84D027746150004BE708 /* IntegerExtentions.swift */; };
 /* End PBXBuildFile section */
@@ -89,6 +93,10 @@
 		AA014E592773A8400079F532 /* UserCreditScoreDataAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreditScoreDataAPI.swift; sourceTree = "<group>"; };
 		AA014E5C2773A8B50079F532 /* UserCreditScoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreditScoreData.swift; sourceTree = "<group>"; };
 		AA014E5E2773B22A0079F532 /* StartScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenViewModel.swift; sourceTree = "<group>"; };
+		AA4D7ACF278F577300C8A85B /* ServiceHelperTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceHelperTest.swift; sourceTree = "<group>"; };
+		AA87B2B6278E113F009C190E /* UserCreditScoreDataTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreditScoreDataTest.swift; sourceTree = "<group>"; };
+		AA87B2BA278E95C4009C190E /* MainViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelTest.swift; sourceTree = "<group>"; };
+		AA87B2BC278E9CDA009C190E /* PopupViewTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupViewTest.swift; sourceTree = "<group>"; };
 		AACF84CD27745E76004BE708 /* MoreInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoViewModel.swift; sourceTree = "<group>"; };
 		AACF84D027746150004BE708 /* IntegerExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegerExtentions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,6 +168,10 @@
 			isa = PBXGroup;
 			children = (
 				AA014E02276C30DB0079F532 /* ClearScoreTests.swift */,
+				AA87B2B6278E113F009C190E /* UserCreditScoreDataTest.swift */,
+				AA87B2BA278E95C4009C190E /* MainViewModelTest.swift */,
+				AA87B2BC278E9CDA009C190E /* PopupViewTest.swift */,
+				AA4D7ACF278F577300C8A85B /* ServiceHelperTest.swift */,
 			);
 			path = ClearScoreTests;
 			sourceTree = "<group>";
@@ -536,6 +548,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA87B2B7278E1140009C190E /* UserCreditScoreDataTest.swift in Sources */,
+				AA87B2BD278E9CDA009C190E /* PopupViewTest.swift in Sources */,
+				AA4D7AD0278F577300C8A85B /* ServiceHelperTest.swift in Sources */,
+				AA87B2BB278E95C4009C190E /* MainViewModelTest.swift in Sources */,
 				AA014E03276C30DB0079F532 /* ClearScoreTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
