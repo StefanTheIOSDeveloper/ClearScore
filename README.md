@@ -3,7 +3,7 @@ Assessment for Clearscore
 
 firstly this was a super fun little task and i took it a bit to far from what you guys wanted but wanted to replicate the Live Clearscore app as much as posible 
 
-I used MVVM as my main structure of the application but also added a singleton class to help make some of the functionality accesseble through out the application with out the need to pass data from one view to the next or to create a whole instance of a view again everytime i want to use it.
+I used MVVM as my main structure of the application but also added a Singleton class to help make some of the functionality accesseble through out the application with out the need to pass data from one view to the next or to create a whole instance of a view again everytime i want to use it.
 
 Also created a main network helper class that contains the main API and network functionality of the app. This is also reusable so all api's that will get added will be able to reuse this class and its functions.
 
