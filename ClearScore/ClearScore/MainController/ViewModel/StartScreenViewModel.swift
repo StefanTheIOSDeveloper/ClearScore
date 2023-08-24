@@ -27,7 +27,7 @@ class StartScreenViewModel: NSObject {
                     delegate.performSegue(withIdentifier: "OpenDashboard", sender: nil)
                 }else if networkError != nil{
                     // show error popup if there is a problem on fetching the data
-                    GlobalData.shareData.generalPopup.Popup(title: "Error", body: networkError?.displayErrorCode() ?? "", currenbtview: delegate.self)
+                    GlobalData.shareData.generalPopup.Popup(title: NSLocalizedString("error", comment: "translation"), body: networkError?.displayErrorCode() ?? "", currenbtview: delegate.self)
                 }
                 
             }

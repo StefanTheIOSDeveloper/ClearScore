@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  ClearScore
+
+  Created by Stefan on 2023/08/24.
+  
+*/
+
+
+"outOf" = "out of";
+
+"excellent" = "Excellent";
+
+"error" = "Error";
+
+"noErrorDiscription" = "Need to create error discription";
+
+"decodeingError" = "We having trouble reading the app data.";
+
+"domainError" = "Problem retriving app data.";
+
+"urlError" = "Issue connecting to our servers.";
+
+"networkError" = "No network connection.";
+
+
+
+

@@ -20,24 +20,15 @@ enum NetworkError: Error {
     func displayErrorCode() -> String {
         switch self {
         case .decodingError:
-            return NSLocalizedString(UserFriendlyNetworkErrors.decodeingError.rawValue, comment: "DecodingError")
+            return NSLocalizedString("decodeingError", comment: "DecodingError")
         case .domainError:
-            return NSLocalizedString(UserFriendlyNetworkErrors.domainError.rawValue, comment: "DomainError")
+            return NSLocalizedString("domainError", comment: "DomainError")
         case .urlError:
-            return NSLocalizedString(UserFriendlyNetworkErrors.urlError.rawValue, comment: "UrlError")
+            return NSLocalizedString("urlError", comment: "UrlError")
         case .networkError:
-            return NSLocalizedString(UserFriendlyNetworkErrors.networkError.rawValue, comment: "NetworkError")
+            return NSLocalizedString("networkError", comment: "NetworkError")
         default:
-            return "Need to create error discription"
+            return NSLocalizedString("noErrorDiscription", comment: "NoErrorDiscription")
         }
     }
-}
-
-enum UserFriendlyNetworkErrors: String {
-    case errorTitle = "Error"
-    case decodeingError = "We having trouble reading the app data."
-    case domainError    = "Problem retriving app data."
-    case urlError       = "Issue connecting to our servers."
-    case networkError   = "No network connection."
-    
 }

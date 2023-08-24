@@ -10,8 +10,11 @@ import UIKit
 
 @IBDesignable
 public class view: UIView {
+    
+    //MARK: to Add Shadow
     private static var _addShadow:Bool = false
     
+    //MARK: Add Shadow Properties
     @IBInspectable var addShadow:Bool {
         get {
             return view._addShadow
@@ -31,34 +34,21 @@ public class view: UIView {
         }
     }
     
-    private static var _addCellShadow:Bool = false
-    
-    @IBInspectable var _addCellShadow:Bool {
-        get {
-            return view._addShadow
-        }
-        set(newValue) {
-            if(newValue == true){
-                layer.masksToBounds = false
-                layer.shadowColor = UIColor.black.cgColor
-                layer.shadowOpacity = 0.2
-                layer.shadowRadius = 3
-                layer.shadowOffset = CGSize(width: 0, height: 1)
-
-            }
-        }
-    }
-    
+    //MARK: Border Color
     @IBInspectable public var borderColor:UIColor? {
         didSet {
             layer.borderColor = borderColor?.cgColor
         }
     }
+    
+    //MARK: Border Width
     @IBInspectable public var borderWidth:CGFloat = 0 {
         didSet {
             layer.borderWidth = borderWidth
         }
     }
+    
+    //MARK: Corner Radius
     @IBInspectable public var cornerRadius:CGFloat {
         get {
             return layer.cornerRadius

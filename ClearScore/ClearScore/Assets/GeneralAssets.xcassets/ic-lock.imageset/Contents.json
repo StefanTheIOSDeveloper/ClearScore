@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "ZF7VnhBjQOu6Cb2YvG1q_logo_with_trademark__white_.png",
+      "filename" : "ic-lock.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "ZF7VnhBjQOu6Cb2YvG1q_logo_with_trademark__white_@2x.png",
+      "filename" : "ic-lock@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "ZF7VnhBjQOu6Cb2YvG1q_logo_with_trademark__white_@3x.png",
+      "filename" : "ic-lock@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

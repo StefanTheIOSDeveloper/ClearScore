@@ -8,6 +8,8 @@
 import Foundation
 
 extension Int {
+    
+    //MARK: Number Formatter
     func formatnumber() -> String {
         let formater = NumberFormatter()
         formater.groupingSeparator = ","

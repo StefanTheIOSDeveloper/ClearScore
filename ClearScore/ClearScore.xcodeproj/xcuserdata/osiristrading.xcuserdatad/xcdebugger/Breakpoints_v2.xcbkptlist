@@ -20,5 +20,147 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "388E1983-D283-4878-AA06-1313166AB822"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClearScore/MainController/ViewModel/MainViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "createCircleProgressBar()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "388E1983-D283-4878-AA06-1313166AB822 - 283ed764b9b0f9b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in ClearScore.MainViewModel.createCircleProgressBar() -&gt; ()"
+                  moduleName = "ClearScore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/osiristrading/Documents/Stefan/IOS%20App&apos;s/ClearScoreAssesment/ClearScore/ClearScore/MainController/ViewModel/MainViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "300">
+               </Location>
+               <Location
+                  uuid = "388E1983-D283-4878-AA06-1313166AB822 - 283ed764b9b0f9b3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in ClearScore.MainViewModel.createCircleProgressBar() -&gt; ()"
+                  moduleName = "ClearScore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/osiristrading/Documents/Stefan/IOS%20App&apos;s/ClearScoreAssesment/ClearScore/ClearScore/MainController/ViewModel/MainViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "388E1983-D283-4878-AA06-1313166AB822 - 283ed764b9b0f8da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in ClearScore.MainViewModel.createCircleProgressBar() -&gt; ()"
+                  moduleName = "ClearScore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/osiristrading/Documents/Stefan/IOS%20App&apos;s/ClearScoreAssesment/ClearScore/ClearScore/MainController/ViewModel/MainViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F55EC6FF-9468-4B8F-BD96-2AAED4C4BF23"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClearScore/MainController/ViewModel/MainViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "createCircleProgressBar()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F55EC6FF-9468-4B8F-BD96-2AAED4C4BF23 - 94911c2755fc53bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Bool) -&gt; () in ClearScore.MainViewModel.createCircleProgressBar() -&gt; ()"
+                  moduleName = "ClearScore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/osiristrading/Documents/Stefan/IOS%20App&apos;s/ClearScoreAssesment/ClearScore/ClearScore/MainController/ViewModel/MainViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "684">
+               </Location>
+               <Location
+                  uuid = "F55EC6FF-9468-4B8F-BD96-2AAED4C4BF23 - 94911c2755fc53bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Bool) -&gt; () in ClearScore.MainViewModel.createCircleProgressBar() -&gt; ()"
+                  moduleName = "ClearScore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/osiristrading/Documents/Stefan/IOS%20App&apos;s/ClearScoreAssesment/ClearScore/ClearScore/MainController/ViewModel/MainViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "72"
+                  endingLineNumber = "72"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "F55EC6FF-9468-4B8F-BD96-2AAED4C4BF23 - 94911c2755fc5287"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Bool) -&gt; () in ClearScore.MainViewModel.createCircleProgressBar() -&gt; ()"
+                  moduleName = "ClearScore"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/osiristrading/Documents/Stefan/IOS%20App&apos;s/ClearScoreAssesment/ClearScore/ClearScore/MainController/ViewModel/MainViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "664">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CB939232-B988-4027-963D-C75E373290EB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ClearScore/MainController/API/UserCreditScoreDataAPI.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "getUserCreditScoreData(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

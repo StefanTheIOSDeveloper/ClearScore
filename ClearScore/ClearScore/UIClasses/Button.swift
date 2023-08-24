@@ -12,17 +12,21 @@ import UIKit
 public class Button: UIButton {
     
     
-    
+    //MARK: Border Color
     @IBInspectable public var borderColor:UIColor? {
         didSet {
             layer.borderColor = borderColor?.cgColor
         }
     }
+    
+    //MARK: Border Width
     @IBInspectable public var borderWidth:CGFloat = 0 {
         didSet {
             layer.borderWidth = borderWidth
         }
     }
+    
+    //MARK: Corner Radius
     @IBInspectable public var cornerRadius:CGFloat {
         get {
             return layer.cornerRadius
@@ -33,8 +37,10 @@ public class Button: UIButton {
         }
     }
     
+    //MARK: to Add Shadow
     private static var _addShadow:Bool = false
     
+    //MARK: Add Shadow Properties
     @IBInspectable var addShadow:Bool {
         get {
             return Button._addShadow
@@ -54,6 +60,7 @@ public class Button: UIButton {
         }
     }
     
+    //MARK: Adjust Font Size To Width
     @IBInspectable var adjustFontSizeToWidth: Bool {
         get {
             return titleLabel!.adjustsFontSizeToFitWidth

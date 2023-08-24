@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "Credit score"; ObjectID = "3OF-Dz-USh"; */
+"3OF-Dz-USh.text" = "Isikolo sesikweletu";
+
+/* Class = "UILabel"; text = "Soaring high"; ObjectID = "8UG-yE-Bn4"; */
+"8UG-yE-Bn4.text" = "Ukukhuphuka phezulu";
+
+/* Class = "UITabBarItem"; title = "Home"; ObjectID = "92T-2f-KUk"; */
+"92T-2f-KUk.title" = "Ikhaya";
+
+/* Class = "UILabel"; text = "out of 500"; ObjectID = "Idd-gR-0bw"; */
+"Idd-gR-0bw.text" = "out of 500";
+
+/* Class = "UILabel"; text = "Welcome back"; ObjectID = "J8r-cO-p4J"; */
+"J8r-cO-p4J.text" = "Siyakwamukela";
+
+/* Class = "UIButton"; normalTitle = "Try again"; ObjectID = "OdQ-2x-8p9"; */
+"OdQ-2x-8p9.normalTitle" = "Zama futhi";
+
+/* Class = "UIButton"; normalTitle = "Log out"; ObjectID = "Ph2-Jk-U6t"; */
+"Ph2-Jk-U6t.normalTitle" = "Phuma";
+
+/* Class = "UINavigationItem"; title = "Dashboard"; ObjectID = "Pxs-q1-bpb"; */
+"Pxs-q1-bpb.title" = "Ideshibhodi";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "dHS-md-7zS"; */
+"dHS-md-7zS.title" = "Into";
+
+/* Class = "UILabel"; text = "Try unlocking the ClearScore app again or log out."; ObjectID = "lUI-FS-qQB"; */
+"lUI-FS-qQB.text" = "Zama ukuvula uhlelo lokusebenza lwe-ClearScore futhi noma phuma.";

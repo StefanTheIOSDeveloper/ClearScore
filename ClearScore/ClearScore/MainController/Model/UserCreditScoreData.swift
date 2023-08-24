@@ -8,11 +8,20 @@
 import Foundation
 
 struct UserCreditScoreData: Codable {
-    let accountIDVStatus, dashboardStatus, personaType: String?
+    let accountIDVStatus : String?
+    let dashboardStatus : String?
+    let personaType: String?
     let creditReportInfo : CreditReportInfo?
 }
 
 struct CreditReportInfo: Codable{
-    let score, maxScoreValue, currentLongTermDebt, currentShortTermDebt, changeInLongTermDebt, changeInShortTermDebt, daysUntilNextReport ,currentShortTermCreditLimit : Int
+    let score : Int
+    let maxScoreValue : Int
+    let currentLongTermDebt : Int
+    let currentShortTermDebt : Int
+    let changeInLongTermDebt : Int
+    let changeInShortTermDebt : Int
+    let daysUntilNextReport : Int
+    let currentShortTermCreditLimit : Int
     let equifaxScoreBandDescription : String
 }

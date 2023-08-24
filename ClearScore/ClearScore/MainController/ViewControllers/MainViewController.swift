@@ -17,20 +17,11 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewModel.setDelegates()
+        
     }
     
-    //MARK: Credit Score View Tap Gesture Event
-    @objc func creditScoreViewTap(){
-        //Opening my More Info View
-        let PopUpViewController = UIStoryboard(name: "MoreInfoView", bundle: nil).instantiateViewController(withIdentifier: "MoreInfoView") as! MoreInfoViewController
-        self.present(PopUpViewController, animated:true, completion:nil)
-    }
-
-    //MARK: Profile Button Click Event
-    @IBAction func profileButtonClick(_ sender: Any) {
-        //Just displaying error message as this feuture doesnt exist
-        GlobalData.shareData.generalPopup.Popup(title: "Error", body: "This Feature is stil under development", currenbtview: self)
+    override func viewDidAppear(_ animated: Bool) {
+        viewModel.setView()
     }
     
 }

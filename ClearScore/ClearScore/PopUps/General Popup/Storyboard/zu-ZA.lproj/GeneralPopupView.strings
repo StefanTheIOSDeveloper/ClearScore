@@ -1,0 +1,12 @@
+
+/* Class = "UIViewController"; title = "GeneralPopupView"; ObjectID = "EED-e9-u94"; */
+"EED-e9-u94.title" = "GeneralPopupView";
+
+/* Class = "UIButton"; normalTitle = "OK"; ObjectID = "K28-zA-4a5"; */
+"K28-zA-4a5.normalTitle" = "KULUNGILE";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."; ObjectID = "Rqb-Zo-dr3"; */
+"Rqb-Zo-dr3.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "zdw-Gp-Gzq"; */
+"zdw-Gp-Gzq.text" = "Isihloko";

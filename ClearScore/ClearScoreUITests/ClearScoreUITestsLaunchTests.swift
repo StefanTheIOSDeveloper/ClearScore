@@ -8,6 +8,8 @@
 import XCTest
 
 class ClearScoreUITestsLaunchTests: XCTestCase {
+    
+    var app: XCUIApplication!
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
@@ -15,18 +17,25 @@ class ClearScoreUITestsLaunchTests: XCTestCase {
 
     override func setUpWithError() throws {
         continueAfterFailure = false
-    }
-
-    func testLaunch() throws {
-        let app = XCUIApplication()
+        app = XCUIApplication()
         app.launch()
-
-        // Insert steps here to perform after app launch but before taking a screenshot,
-        // such as logging into a test account or navigating somewhere in the app
-
-        let attachment = XCTAttachment(screenshot: app.screenshot())
-        attachment.name = "Launch Screen"
-        attachment.lifetime = .keepAlways
-        add(attachment)
     }
+    
+    func testViewVisibility() throws {
+            let yourView = app.otherElements["PopupView"] // Replace with your identifier
+            
+            XCTAssertTrue(yourView.waitForExistence(timeout: 5)) // Wait for view to appear
+
+            // Check if the view is visible and hittable
+            XCTAssertTrue(yourView.isHittable)
+        }
+
+    func testOKButtonTapOnGeneralPopup() throws {
+        let okButton = app.buttons["GeneralPopupOKButton"]
+        XCTAssert(okButton.exists)
+        
+        okButton.tap()
+        
+    }
+    
 }

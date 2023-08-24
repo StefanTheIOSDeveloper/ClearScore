@@ -1,0 +1,23 @@
+/* 
+  Localizable.strings
+  ClearScore
+
+  Created by Stefan on 2023/08/24.
+  
+*/
+
+"out of" = "koku";
+
+"excellent" = "kuhle kakhulu";
+
+"error" = "Iphutha";
+
+"noErrorDiscription" = "Udinga ukudala incazelo yephutha.";
+
+"decodeingError" = "Sinenkinga yokufunda idatha yohlelo lokusebenza.";
+
+"domainError" = "Inkinga ngokubuyisa idatha yohlelo lokusebenza.";
+
+"urlError" = "Inkinga yokuxhuma kumaseva ethu.";
+
+"networkError" = "Alukho uxhumano lwenethiwekhi.";
